@@ -61,7 +61,7 @@ public class MainApplication extends Application implements ReactApplication {
             return UpdatesController.getInstance().getLaunchAssetFile();
           }
         }
- 
+
         @Override
         protected @Nullable String getBundleAssetName() {
           if (BuildConfig.DEBUG) {

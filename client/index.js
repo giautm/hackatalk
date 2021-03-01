@@ -1,3 +1,5 @@
-import {App} from './src';
+import 'expo-asset';
 
-export default App;
+import {AppRegistry, LogBox} from 'react-native';
+
+import App from './src/App';

@@ -1,8 +1,10 @@
 import 'dotenv/config';
 
 export default {
+  entryPoint: 'index.js',
   expo: {
     name: 'HackaTalk',
+    displayName: 'HackaTalk',
     slug: 'HackaTalk-Bare',
     sdkVersion: "40.0.0",
     privacy: 'public',
@@ -74,14 +76,14 @@ export default {
     packagerOpts: {
       config: './metro.config.js',
       sourceExts: [
-        'js',
-        'jsx',
-        'ts',
-        'tsx',
         'expo.ts',
         'expo.tsx',
         'expo.js',
         'expo.jsx',
+        'ts',
+        'tsx',
+        'js',
+        'jsx',
         'json',
         'wasm',
         'svg',
